@@ -22,7 +22,7 @@ TARGET_RECOVERY_FSTAB := device/sony/kumquat/config/fstab.st-ericsson
 
 
 # Specific flag for LED bar notification
-COMMON_GLOBAL_CFLAGS += -DNEW_NOTIFICATION -DSECOND_NOTIFICATION
+COMMON_GLOBAL_CFLAGS += -DNEW_NOTIFICATION
 
 
 # Device identifiers for updates
