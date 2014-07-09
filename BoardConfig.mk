@@ -23,6 +23,8 @@ BOARD_HAS_NO_REAL_SDCARD := true
 BOARD_HAS_SDCARD_INTERNAL := true
 TARGET_RECOVERY_FSTAB := device/sony/kumquat/config/fstab.st-ericsson
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard0
 
 # Specific flag for LED bar notification
 COMMON_GLOBAL_CFLAGS += -DNEW_NOTIFICATION
